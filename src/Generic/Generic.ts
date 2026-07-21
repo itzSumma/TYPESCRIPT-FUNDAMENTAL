@@ -30,3 +30,4 @@ const firstSalary = createPair("Sharmin", 30000);
  }
  const numberArray = wrapInArray(10);
  const stringArray = wrapInArray("Hello");
+
