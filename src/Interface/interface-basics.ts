@@ -54,4 +54,22 @@ user.name="tisha";
  *Summary: Attempts to reassign id on newUser, and reassign name on the plain JS user. 
  */
 
+
+ interface Config {
+  readonly apiKey: string;
+}
+
+let settings: Config = { apiKey: "abc123" };
+
+settings = { apiKey: "xyz789" };
+settings.apiKey = "new-key";  
+/*
+ * Readonly — Quick Notes
+*readonly propertyName: type → property can't be changed after it's initially set
+*const = locks variable reassignment (reference lock)
+*readonly = locks a specific property's value inside the object (value lock)
+*Two independent layers — one doesn't substitute for the other */     
+
+
+
  
