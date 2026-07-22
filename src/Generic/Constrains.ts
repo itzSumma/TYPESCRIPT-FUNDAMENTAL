@@ -42,3 +42,15 @@ const result2 = getPropertyOrFallback(product, "price")
 const job = { role: "Developer", company: "TechCorp" };
 const combined = mergeObject(person, job);
 console.log(combined);
+
+interface Product {
+  id: number;
+  title: string;
+  price: number;
+  stock: number;
+}
+
+
+function updateProduct(id: number, updatedData: Partial<Product>) {
+  console.log(`Updating product ${id} with:`, updatedData);
+}
