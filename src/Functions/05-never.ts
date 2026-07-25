@@ -60,3 +60,5 @@ function getDashboardData(user: VerdictUser) {
     throw new Error(`Unhandled role: ${exhaustiveCheck}`);
   }
 }
+
+//৪. Assertion functions / guard clauses এ — যেইখানে function টা যদি condition fail করে, প্রোগ্রাম থামিয়ে দেয় (throw করে), সেই function এর return type never হয়, কারণ fail হলে normal execution আর continue হয় না।
