@@ -22,10 +22,3 @@ console.log(salary);
 
 
 
-/**number    → সংখ্যা
-string    → লেখা
-boolean   → true / false
-null      → ইচ্ছা করে খালি
-undefined → এখনো value নেই
-symbol    → unique value
-bigint    → খুব বড় সংখ্যা */
