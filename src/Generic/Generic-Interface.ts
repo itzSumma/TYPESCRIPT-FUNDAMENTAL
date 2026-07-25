@@ -1,7 +1,7 @@
 //Task-1
 interface UserProfile{
     name:string;
-    email:number;
+    email:string;
 }
 
 const userResponse:ApiResponse<UserProfile>={
